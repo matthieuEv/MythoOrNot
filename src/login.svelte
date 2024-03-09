@@ -2,8 +2,8 @@
   import { navigate } from "svelte-routing";
   import { user } from './stores.js';
 
-  let user1 = '';
-  let user2 = '';
+  let user1 = 'player1';
+  let user2 = 'player2';
 
   function handleClick(){
     if (user1 === '' || user2 === ''){
