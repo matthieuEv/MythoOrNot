@@ -1,11 +1,11 @@
 <script lang="ts">
-    import { Router, Route, navigate } from "svelte-routing";
-    import Login from "./login.svelte";
-    import Play from "./play.svelte";
-    import Win from "./win.svelte";
+    import { Router, Route } from "svelte-routing";
+    import Login from "./routes/login.svelte";
+    import Play from "./routes/play.svelte";
+    import Win from "./routes/win.svelte";
 </script>
 
-<main>
+<main style="user-select: none;">
     <Router>
         <div>
             <Route path="/" component={Login} />
