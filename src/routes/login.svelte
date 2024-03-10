@@ -54,7 +54,7 @@
 <main>
   <div id="header">
     <h1>Myth</h1>
-    <img src="../src/assets/eyes.png" alt="logo" />
+    <img src="/eyes.png" alt="logo" />
     <h1>r not</h1>
   </div>
   <div id="inputs">

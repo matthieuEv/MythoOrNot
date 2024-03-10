@@ -311,7 +311,7 @@
             background-color: #00000023;
         }
         .flip-card-back {
-            background-image: url("../assets/card.png");
+            background-image: url("/card.png");
             transform: rotateY(180deg);
             background-size: cover;
         }
